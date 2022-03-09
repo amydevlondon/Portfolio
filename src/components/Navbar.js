@@ -20,7 +20,7 @@ export const Navbar = () => {
                             <a className="nav-link" href="/#projects" data-text="projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="https://www.amycv.com" target="_blank" data-text="cv">CV</a>
+                            <a className="nav-link" href="https://www.amycv.com" target="_blank" rel="noopener noreferrer" data-text="cv">CV</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/#contact" data-text="connect">Connect</a>

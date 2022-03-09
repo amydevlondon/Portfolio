@@ -12,7 +12,7 @@ export const Contact = () => {
                     links.map((i) => {
                         const { id, link, icon } = i;
                         return (
-                            <a href={link} target="_blank" key={id}>
+                            <a href={link} target="_blank" rel="noopener noreferrer" key={id}>
                                 <i className={`contact-icon ${icon}`} />
                             </a>
                         );

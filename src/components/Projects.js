@@ -28,11 +28,11 @@ export const Projects = () => {
                                 <p>{description}</p>
                             </div>
                             <div className="project-links">
-                                <a href={code} target="_blank">
+                                <a href={code} target="_blank" rel="noopener noreferrer">
                                     Check out the Code
                                      {arrow}
                                 </a>
-                                <a href={demo} target="_blank">
+                                <a href={demo} target="_blank" rel="noopener noreferrer">
                                     {demo && "Visit Site"}
                                     {demo && arrow}
                                 </a>
