@@ -1,0 +1,48 @@
+import React from 'react';
+import { projects } from '../data';
+
+export const Projects = () => {
+
+    const arrow = <i className="fas fa-chevron-right arrow-icon" />;
+
+    return (
+        <section className="projects" id="projects">
+            <h3 className="title">Projects</h3>
+            <article className="projects-list">
+                {projects.map((project) => {
+                    const { id, name, languages, description, code, demo } = project;
+                    return (
+                        <div key={id} className="project">
+                            <h4 className="project-name">{name}</h4>
+                            <div className="project-languages">
+                                {languages.map((i) => {
+                                    return (
+                                        <p key={Math.random() * 1000}>
+                                            {i}
+                                            {languages.indexOf(i) !== languages.length - 1 ? <span>|</span> : ""}
+                                        </p>
+                                    );
+                                })}
+                            </div>
+                            <div className="project-description">
+                                <p>{description}</p>
+                            </div>
+                            <div className="project-links">
+                                <a href={code} target="_blank">
+                                    Check out the Code
+                                     {arrow}
+                                </a>
+                                <a href={demo} target="_blank">
+                                    {demo && "Visit Site"}
+                                    {demo && arrow}
+                                </a>
+                            </div>
+                        </div>
+                    );
+                })}
+            </article>
+        </section>
+    );
+};
+
+export default Projects;
