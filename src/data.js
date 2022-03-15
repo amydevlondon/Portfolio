@@ -33,6 +33,14 @@ export const skills = [
 export const projects = [
     {
         id: 1,
+        name: "Cocktail Find App",
+        languages: ["React JS", "HTML", "CSS"],
+        description: "",
+        code: "https://github.com/amydevlondon/Cocktail-Find-App",
+        demo: "https://cocktailfind.netlify.app/"
+    },
+    {
+        id: 2,
         name: "Users App",
         languages: ["React JS", "HTML", "CSS"],
         description: "",
@@ -40,7 +48,7 @@ export const projects = [
         demo: "https://newusers.netlify.app/"
     },
     {
-        id: 2,
+        id: 3,
         name: "Wikipedia Search App",
         languages: ["JavaScript", "HTML", "CSS"],
         description: "",
@@ -48,7 +56,7 @@ export const projects = [
         demo: "https://wiki-find.netlify.app/"
     },
     {
-        id: 3,
+        id: 4,
         name: "Shopping List App",
         languages: ["React JS", "HTML", "CSS"],
         description: "",
