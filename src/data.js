@@ -33,13 +33,28 @@ export const skills = [
 export const projects = [
     {
         id: 1,
-        name: "Project Name",
-        languages: ["Languages Used"],
-        description: "Project Description",
-        code: "",
-        demo: ""
+        name: "Users App",
+        languages: ["React JS", "HTML", "CSS"],
+        description: "",
+        code: "https://github.com/amydevlondon/Users-App",
+        demo: "https://newusers.netlify.app/"
     },
- 
+    {
+        id: 2,
+        name: "Wikipedia Search App",
+        languages: ["JavaScript", "HTML", "CSS"],
+        description: "",
+        code: "https://github.com/amydevlondon/Wikipedia-Search-App/blob/main/index.js",
+        demo: "https://wiki-find.netlify.app/"
+    },
+    {
+        id: 3,
+        name: "Shopping List App",
+        languages: ["React JS", "HTML", "CSS"],
+        description: "",
+        code: "https://github.com/amydevlondon/Shopping-List-App",
+        demo: "https://shoppingbuddy.netlify.app/"
+    },
 ];
 export const links = [
     {
