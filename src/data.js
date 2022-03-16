@@ -63,6 +63,21 @@ export const projects = [
         code: "https://github.com/amydevlondon/Shopping-List-App",
         demo: "https://shoppingbuddy.netlify.app/"
     },
+    {
+        id: 5,
+        name: "Bored App",
+        languages: ["React JS", "HTML", "CSS"],
+        description: "",
+        code: "https://github.com/amydevlondon/Bored-App",
+        demo: "https://boredrwe.netlify.app/"
+    },
+    {
+        id: 5,
+        name: "CRUD API",
+        languages: ["Java", "Maven", "Spring Boot", "MySQL", "Postman"],
+        description: "",
+        code: "https://github.com/amydevlondon/CRUD-Api",
+    },
 ];
 export const links = [
     {
