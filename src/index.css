@@ -12,6 +12,13 @@
 	--radius: 3px;
 	--transition: .4s ease-in-out;
 }
+@media screen and (prefers-color-scheme: dark) {
+	body {
+		--body-color: hsl(var(--hue), 0%, 10%);
+		--body-color-alt: hsl(var(--hue), 2%, 9%);
+		--text-color: hsl(var(--hue), 5%, 85%);
+	}
+}
 @media screen and (min-width: 600px) {
 	:root {
 		--font-size-xl: 5rem;
@@ -123,7 +130,6 @@ section:nth-of-type(even) {
 }
 .project-languages span {
 	color: var(--accent-color);
-	color: hsl(var(--hue), 100%, 50%);
 	margin: 0 .2rem;
 }
 .project-description {
