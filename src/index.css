@@ -120,6 +120,7 @@ section:nth-of-type(even) {
 	margin: 3rem 0;
 }
 .project-name {
+	font-size: 1.65rem;
 	font-weight: 400;
 	margin-bottom: .5rem;
 }
