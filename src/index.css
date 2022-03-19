@@ -41,12 +41,12 @@ ul {
 	list-style: none;
 }
 a {
-	color: var(--text-color) !important;
+	color: var(--text-color);
 	text-decoration: none;
 }
 a:hover {
-	color: var(--accent-color) !important;
-	transition: .35s;
+	color: var(--accent-color);
+	transition: var(--transition);
 }
 .flex {
 	display: flex;
@@ -79,6 +79,29 @@ section:nth-of-type(even) {
 	height: 175px;
 	margin-bottom: 2rem;
 }
+/* NAVBAR  */
+.navbar {
+	text-transform: uppercase;
+	background-color: var(--body-color);
+}
+.navbar-toggler {
+	color: var(--text-color);
+	border: none;
+	font-size: 1.5rem;
+}
+.navbar.navbar-custom .navbar-brand {
+	color: white;
+	background-color: var(--accent-color);
+	padding: 0 3px;
+	border-radius: var(--radius);
+	font-weight: 300;
+}
+.navbar a {
+	color: var(--text-color);
+}
+.navbar a:hover {
+	color: var(--accent-color);
+}
 /* HEADER */
 .header {
 	margin-top: 2rem;
@@ -100,6 +123,7 @@ section:nth-of-type(even) {
 .header-links a {
 	margin: 0 .75rem;
 	font-size: var(--font-size-normal);
+	font-size: 1.6rem;
 }
 /* SKILLS */
 .skills .title {
@@ -164,26 +188,4 @@ section:nth-of-type(even) {
 	.contact-icon {
 		font-size: 3rem;
 	}
-}
-/* NAVBAR  */
-.navbar {
-	text-transform: uppercase;
-	color: var(--text-color);
-	background-color: var(--body-color);
-}
-.navbar-toggler {
-	color: var(--text-color);
-	border: none;
-	font-size: 1.5rem;
-}
-.navbar-brand {
-	color: white !important;
-	background-color: var(--accent-color) !important;
-	padding: 0 3px;
-	border-radius: var(--radius);
-	font-weight: 300;
-}
-.navbar-brand:hover {
-	color: white !important;
-	background-color: var(--accent-color) !important;
 }
