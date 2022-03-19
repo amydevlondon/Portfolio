@@ -35,7 +35,7 @@ export const projects = [
         id: 1,
         name: "Cocktail Find App",
         languages: ["React JS", "HTML", "CSS"],
-        description: "In this application, I used an external API (TheCocktailDB API) to fetch and display data about cocktails. This is a single-page app that uses React Router Dom v6 to create and navigate different Routes. The CocktailDB API offers several different URLs that lead to various end points. I created a custom hook in order to fetch data from different URLs in different areas of the application without having to repeat myself and re-write the same function for fetching data. The Search Cocktails page takes input from a user via a text input field and returns a list of cocktails that match the query inputted (if any). The Cocktails By Letter page of the application lists all cocktails that begin with a letter of the alphabet specified by a user’s selection.  I used the useState hook to update the letter used as a search parameter in the URL based on the user’s selection.",
+        description: "Worked with an external API (TheCocktailDB) and created a custom hook to fetch and display data about cocktails. This is a single page application that uses React Router Dom v6.",
         code: "https://github.com/amydevlondon/Cocktail-Find-App",
         demo: "https://cocktailfind.netlify.app/"
     },
@@ -43,7 +43,7 @@ export const projects = [
         id: 2,
         name: "Spring Boot API",
         languages: ["Java", "Maven", "Spring Boot", "MySQL", "Postman"],
-        description: "This project is a Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
+        description: "Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
         code: "https://github.com/amydevlondon/CRUD-Api",
     },
     {
