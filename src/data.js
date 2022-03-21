@@ -35,7 +35,7 @@ export const projects = [
         id: 6,
         name: "Cocktail Find App",
         languages: ["React JS", "HTML", "CSS"],
-        description: "Worked with an external API (TheCocktailDB) and created a custom hook to fetch and display data about cocktails. This is a single page application that uses React Router Dom v6.",
+        description: "This website, made with React JS, uses an external API (TheCocktailDB) to display data about different cocktails. I created a custom hook to fetch data from the API which is used in different components of the application. This is a single page application that uses React Router Dom v6.",
         code: "https://github.com/amydevlondon/Cocktail-Find-App",
         demo: "https://cocktailfind.netlify.app/",
         image: './images/cocktail4.jpg'
@@ -44,14 +44,14 @@ export const projects = [
         id: 7,
         name: "Spring Boot API",
         languages: ["Java", "Maven", "Spring Boot", "MySQL", "Postman"],
-        description: "Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
+        description: "A Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
         code: "https://github.com/amydevlondon/CRUD-Api",
     },
     {
         id: 8,
         name: "Users App",
         languages: ["React JS", "HTML", "CSS"],
-        description: "",
+        description: "In this application I worked with an external API (randomuser.me) to display a list of random users. I used useState to dynamically change the parameters of the URL to reflect the options selected by the user of the application. The list of random users displayed can be specified based on gender, location, and number of users desired to be shown.",
         code: "https://github.com/amydevlondon/Users-App",
         demo: "https://newusers.netlify.app/",
         image: './images/users.jpg'
