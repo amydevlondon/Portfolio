@@ -10,7 +10,7 @@ export const Projects = () => {
             <h3 className="title">Projects</h3>
             <article className="projects-list">
                 {projects.map((project) => {
-                    const { id, name, languages, description, code, demo } = project;
+                    const { id, name, languages, image, description, code, demo } = project;
                     return (
                         <div key={id} className="project">
                             <h4 className="project-name">{name}</h4>
@@ -24,6 +24,7 @@ export const Projects = () => {
                                     );
                                 })}
                             </div>
+                            {image && <img src={image} alt="" className="project-image" />}
                             <div className="project-description">
                                 <p>{description}</p>
                             </div>
