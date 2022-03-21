@@ -138,7 +138,7 @@ section:nth-of-type(even) {
 }
 /* PROJECTS */
 .project {
-	margin-bottom: 3rem;
+	margin-bottom: 5rem;
 }
 .projects .title {
 	margin: 3rem 0;
