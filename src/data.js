@@ -43,7 +43,7 @@ export const projects = [
     {
         id: 7,
         name: "Spring Boot API",
-        languages: ["Java", "Maven", "Spring Boot", "MySQL", "Postman"],
+        languages: ["Java", "Maven", "Spring Boot", "MySQL"],
         description: "A Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
         code: "https://github.com/amydevlondon/CRUD-Api",
     },
