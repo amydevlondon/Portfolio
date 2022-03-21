@@ -63,7 +63,7 @@ section {
 	display: grid;
 	place-content: center;
 	place-items: center;
-	padding: 2rem;
+	padding: 4rem;
 }
 section:nth-of-type(even) {
 	background-color: var(--body-color-alt);
@@ -96,10 +96,10 @@ section:nth-of-type(even) {
 	border-radius: var(--radius);
 	font-weight: 300;
 }
-.navbar a {
+.navbar.navbar-custom a {
 	color: var(--text-color);
 }
-.navbar a:hover {
+.navbar.navbar-custom a:hover {
 	color: var(--accent-color);
 }
 /* HEADER */
