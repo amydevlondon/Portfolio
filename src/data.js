@@ -88,21 +88,25 @@ export const links = [
     {
         id: 12,
         link: "tel:+447752430672",
-        icon: "fas fa-mobile-alt"
+        icon: "fas fa-mobile-alt",
+        text: "+44 7752430672"
     },
     {
         id: 13,
         link: "mailto: amylopezdev@gmail.com",
-        icon: "far fa-envelope"
+        icon: "far fa-envelope",
+        text: "amylopezdev@gmail.com"
     },
     {
         id: 14,
         link: "https://github.com/amydevlondon",
-        icon: "fab fa-github"
+        icon: "fab fa-github",
+        text: "amydevlondon"
     },
     {
         id: 15,
         link: "https://www.linkedin.com/in/amy-lopez-196bb0228/",
-        icon: "fab fa-linkedin-in"
+        icon: "fab fa-linkedin-in",
+        text: "Amy Lopez"
     }
 ];
