@@ -178,21 +178,26 @@ section:nth-of-type(even) {
 }
 /* CONTACT */
 .contact .title {
-	margin-bottom: 3rem;
+	margin-bottom: 3.5rem;
 }
 .contact-list {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	column-gap: 2.5rem;
+	grid-template-columns: 1fr;
+	row-gap: 1rem;
+}
+.contact-list li {
+	text-align: center;
 }
 .contact-icon {
-	font-size: 2rem;
+	margin-right: .5rem;
 }
 @media screen and (min-width: 800px) {
 	.logo {
 		height: 250px;
 	}
-	.contact-icon {
-		font-size: 3rem;
+	.contact-list {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		column-gap: 1rem;
 	}
 }

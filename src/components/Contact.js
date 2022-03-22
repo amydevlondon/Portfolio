@@ -7,18 +7,21 @@ export const Contact = () => {
         <section className="contact" id="contact">
             <Icon className="logo" />
             <h3 className="title">Let's Connect</h3>
-            <article className="contact-list">
+            <ul className="contact-list">
                 {
                     links.map((i) => {
-                        const { id, link, icon } = i;
+                        const { id, link, icon, text } = i;
                         return (
-                            <a href={link} target="_blank" rel="noopener noreferrer" key={id}>
-                                <i className={`contact-icon ${icon}`} />
-                            </a>
+                            <li key={id}>
+                                <a href={link} target="_blank" rel="noopener noreferrer" key={id}>
+                                    <i className={`contact-icon ${icon}`} />
+                                    {text}
+                                </a>
+                            </li>
                         );
                     })
                 }
-            </article>
+            </ul>
         </section>
     );
 };
