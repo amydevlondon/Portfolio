@@ -66,7 +66,7 @@ section {
 	display: grid;
 	place-content: center;
 	place-items: center;
-	padding: 4rem;
+	padding: 6rem 4rem;
 	animation: slidein .5s forwards;
 }
 @keyframes slidein {
@@ -91,28 +91,25 @@ section:nth-of-type(even) {
 	animation: slidein .5s forwards;
 	animation-delay: .3s;
 }
-.header .logo {
-	display: none;
-}
 /* NAVBAR  */
-.navbar {
+.navbar.navbar-custom {
 	text-transform: uppercase;
-	background-color: var(--body-color);
+	background-color: var(--body-color-alt);
 }
 .navbar-toggler {
 	color: var(--text-color);
 	border: none;
-	font-size: 1.5rem;
+	font-size: 1.8rem;
 }
 .navbar.navbar-custom .navbar-brand {
-	color: white;
-	background-color: var(--accent-color);
-	padding: 0 3px;
-	border-radius: var(--radius);
+	font-family: 'Rampart One', cursive;
+	font-size: 2.5rem;
 	font-weight: 300;
+	padding: 0 .5rem;
+	color: var(--accent-color);
 }
 .navbar.navbar-custom .navbar-brand:hover {
-	color: white;
+	color: var(--text-color);
 }
 .navbar.navbar-custom a {
 	color: var(--text-color);
@@ -121,6 +118,9 @@ section:nth-of-type(even) {
 	color: var(--accent-color);
 }
 /* HEADER */
+.header .logo {
+	display: none;
+}
 .header-text {
 	margin-bottom: 2rem;
 }
@@ -258,6 +258,9 @@ section:nth-of-type(even) {
 	color: var(--accent-color);
 }
 @media screen and (min-width: 900px) {
+	.header {
+		padding: 6rem;
+	}
 	.header,
 	.contact-container {
 		grid-template-columns: 1fr 1fr;
@@ -266,8 +269,12 @@ section:nth-of-type(even) {
 	.header .logo {
 		display: block;
 	}
-	.logo {
-		max-width: 600px;
+	.header .logo {
+		max-height: 450px;
+		max-width: 450px;
+	}
+	.contact .logo {
 		max-height: 350px;
+		max-width: 600px;
 	}
 }
