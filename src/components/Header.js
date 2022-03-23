@@ -1,25 +1,24 @@
 import React from 'react';
 import { ReactComponent as Icon } from '../svgs/svg1.svg';
-import { links } from '../data';
+import { FiDownload } from 'react-icons/fi';
+import CV from '../CV/cv.pdf';
 
 export const Header = () => {
     return (
         <section className="header">
             <Icon className="logo" />
-            <h1 className="title">Amy Lopez</h1>
-            <h2 className="sub-title">Software Developer</h2>
-            <article className="header-links">
-                {
-                    links.map((i) => {
-                        const { id, link, icon } = i;
-                        return (
-                            <a href={link} key={id}>
-                                <i className={icon} />
-                            </a>
-                        );
-                    })
-                }
-            </article>
+            <div>
+                <div className="header-text">
+                    <h1>Hi, I'm <span className="purple">Amy</span></h1>
+                    <p className="sub-title">I'm a <span className="purple">Web Developer</span> based in London</p>
+                </div>
+                <div className="btn-container">
+                    <a href={CV} className="header-btn" download>
+                        <span className="btn-text">Download CV</span>
+                        <span className="btn-icon"><FiDownload /></span>
+                    </a>
+                </div>
+            </div>
         </section>
     );
 };
