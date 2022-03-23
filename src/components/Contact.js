@@ -1,6 +1,6 @@
 import React from 'react';
 import { links } from '../data';
-import { ReactComponent as Icon } from '../svgs/svg3.svg';
+import { ReactComponent as Icon } from '../svgs/svg5.svg';
 
 export const Contact = () => {
     return (
