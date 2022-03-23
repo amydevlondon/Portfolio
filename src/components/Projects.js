@@ -1,41 +1,38 @@
 import React from 'react';
 import { projects } from '../data';
+import { VscCircleFilled } from 'react-icons/vsc';
+import { FaLaptop } from 'react-icons/fa';
+import { FiGithub } from 'react-icons/fi';
 
 export const Projects = () => {
 
-    const arrow = <i className="fas fa-chevron-right arrow-icon" />;
-
     return (
-        <section className="projects" id="projects">
+        <section className="projects">
             <h3 className="title">Projects</h3>
             <article className="projects-list">
                 {projects.map((project) => {
-                    const { id, name, languages, image, description, code, demo } = project;
+                    const { id, name, languages, description, code, demo } = project;
                     return (
-                        <div key={id} className="project">
-                            <h4 className="project-name">{name}</h4>
+                        <div className="project" key={id}>
+                            <h3>{name}</h3>
                             <div className="project-languages">
                                 {languages.map((i) => {
                                     return (
                                         <p key={Math.random() * 1000}>
                                             {i}
-                                            {languages.indexOf(i) !== languages.length - 1 ? <span>|</span> : ""}
+                                            {languages.indexOf(i) !== languages.length - 1 ? <VscCircleFilled className="circle" /> : ""}
                                         </p>
                                     );
                                 })}
                             </div>
-                            {image && <img src={image} alt="" className="project-image" />}
-                            <div className="project-description">
-                                <p>{description}</p>
-                            </div>
+                            <p className="project-description">{description && description}</p>
                             <div className="project-links">
                                 <a href={code} target="_blank" rel="noopener noreferrer">
-                                    Check out the Code
-                                     {arrow}
+                                    <FiGithub className="project-icon" />Source Code
                                 </a>
                                 <a href={demo} target="_blank" rel="noopener noreferrer">
-                                    {demo && "Visit Site"}
-                                    {demo && arrow}
+                                    {demo && <FaLaptop className="project-icon" />}
+                                    {demo && "Live site"}
                                 </a>
                             </div>
                         </div>
