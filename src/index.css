@@ -118,9 +118,7 @@ section:nth-of-type(even) {
 	color: var(--accent-color);
 }
 .header .logo {
-	max-height: 225px;
-	max-width: 225px;
-	margin-bottom: 2rem;
+	display: none;
 }
 .header-text {
 	margin-bottom: 3rem;
@@ -258,6 +256,20 @@ section:nth-of-type(even) {
 	margin-right: .7rem;
 	color: var(--accent-color);
 }
+@media screen and (min-width: 700px) {
+	.header {
+		padding: 6rem;
+	}
+	.header .logo {
+		display: block;
+		max-height: 350px;
+		max-width: 350px;
+	}
+	.contact .logo {
+		max-height: 350px;
+		max-width: 600px;
+	}
+}
 @media screen and (min-width: 900px) {
 	.header {
 		padding: 6rem;
@@ -266,10 +278,6 @@ section:nth-of-type(even) {
 	.contact-container {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 2rem;
-	}
-	.header .logo {
-		max-height: 450px;
-		max-width: 450px;
 	}
 	.contact .logo {
 		max-height: 350px;
