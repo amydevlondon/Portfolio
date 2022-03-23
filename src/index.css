@@ -117,12 +117,13 @@ section:nth-of-type(even) {
 .navbar.navbar-custom a:hover {
 	color: var(--accent-color);
 }
-/* HEADER */
 .header .logo {
-	display: none;
+	max-height: 225px;
+	max-width: 225px;
+	margin-bottom: 2rem;
 }
 .header-text {
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 .header h1 {
 	font-size: var(--font-size-xl);
@@ -265,9 +266,6 @@ section:nth-of-type(even) {
 	.contact-container {
 		grid-template-columns: 1fr 1fr;
 		column-gap: 2rem;
-	}
-	.header .logo {
-		display: block;
 	}
 	.header .logo {
 		max-height: 450px;
