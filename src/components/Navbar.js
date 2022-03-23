@@ -24,7 +24,7 @@ export const Navbar = () => {
                             <a href="https://www.amycv.com" className="nav-link" target="_blank" rel="noopener noreferrer">CV</a>
                         </li>
                         <li className="nav-item">
-                            <Link to="/contact" className="nav-link">Connect</Link>
+                            <Link to="/contact" className="nav-link">Contact</Link>
                         </li>
                     </ul>
                 </div>
