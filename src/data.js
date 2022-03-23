@@ -60,8 +60,7 @@ export const projects = [
         id: 9,
         name: "Wikipedia Search App",
         languages: ["JavaScript", "HTML", "CSS"],
-        description: "",
-        code: "https://github.com/amydevlondon/Wikipedia-Search-App/blob/main/index.js",
+        code: "https://github.com/amydevlondon/Wikipedia-Search-App",
         demo: "https://wiki-find.netlify.app/",
         image: './images/wiki.jpg'
     },
@@ -69,7 +68,6 @@ export const projects = [
         id: 10,
         name: "Shopping List App",
         languages: ["React JS", "HTML", "CSS"],
-        description: "",
         code: "https://github.com/amydevlondon/Shopping-List-App",
         demo: "https://shoppingbuddy.netlify.app/",
         image: './images/shopping.jpg'
@@ -78,7 +76,6 @@ export const projects = [
         id: 11,
         name: "Bored App",
         languages: ["React JS", "HTML", "CSS"],
-        description: "",
         code: "https://github.com/amydevlondon/Bored-App",
         demo: "https://boredrwe.netlify.app/",
         image: './images/bored.jpg'
