@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Icon } from '../svgs/svg5.svg';
+import { ReactComponent as Icon } from '../svgs/svg2.svg';
 import { FiDownload } from 'react-icons/fi';
 import CV from '../CV/cv.pdf';
 
