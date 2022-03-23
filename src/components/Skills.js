@@ -3,7 +3,7 @@ import { skills } from '../data';
 
 export const Skills = () => {
     return (
-        <section className="skills" id="skills">
+        <section className="skills">
             <h3 className="title">Skills</h3>
             <div className="skill-section">
                 {skills.map((i) => {
