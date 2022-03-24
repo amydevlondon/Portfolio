@@ -116,7 +116,7 @@ section:nth-of-type(even) {
 .navbar.navbar-custom a:hover {
 	color: var(--accent-color);
 }
-.navbar.navbar-custom .active {
+.navbar.navbar-custom .active:not(.navbar-brand) {
 	color: var(--accent-color);
 }
 /* HEADER */
