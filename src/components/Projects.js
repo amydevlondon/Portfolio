@@ -4,8 +4,7 @@ import { VscCircleFilled } from 'react-icons/vsc';
 import { FaLaptop } from 'react-icons/fa';
 import { FiGithub } from 'react-icons/fi';
 
-export const Projects = () => {
-
+const Projects = () => {
     return (
         <section className="projects">
             <h3 className="title">Projects</h3>

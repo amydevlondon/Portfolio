@@ -1,7 +1,7 @@
 import React from 'react';
 import { skills } from '../data';
 
-export const Skills = () => {
+const Skills = () => {
     return (
         <section className="skills">
             <h3 className="title">Skills</h3>

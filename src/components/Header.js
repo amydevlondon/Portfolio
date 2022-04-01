@@ -3,7 +3,7 @@ import { ReactComponent as Icon } from '../svgs/svg2.svg';
 import { FiDownload } from 'react-icons/fi';
 import CV from '../CV/cv.pdf';
 
-export const Header = () => {
+const Header = () => {
     return (
         <section className="header">
             <Icon className="logo" />
