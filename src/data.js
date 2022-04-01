@@ -40,13 +40,13 @@ export const projects = [
         demo: "https://cocktailfind.netlify.app/",
         image: './images/cocktail4.jpg'
     },
-    {
-        id: 7,
-        name: "Spring Boot API",
-        languages: ["Java", "Maven", "Spring Boot", "MySQL"],
-        description: "A Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
-        code: "https://github.com/amydevlondon/CRUD-Api",
-    },
+    // {
+    //     id: 7,
+    //     name: "Spring Boot API",
+    //     languages: ["Java", "Maven", "Spring Boot", "MySQL"],
+    //     description: "A Spring Boot API with full create, read, update, and delete functionality, connected to a MySQL database. I tested this API by making a series of HTTP requests using Postman, and used MySQL Workbench to ensure that the data sent to the API persisted on each request.",
+    //     code: "https://github.com/amydevlondon/CRUD-Api",
+    // },
     {
         id: 8,
         name: "Users App",
