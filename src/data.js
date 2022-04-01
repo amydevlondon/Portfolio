@@ -68,6 +68,7 @@ export const projects = [
         id: 10,
         name: "Shopping List App",
         languages: ["React JS", "HTML", "CSS"],
+        description: "This shopping list application, made with React JS, allows a user to add items to a list, update/edit items added to the list, delete items from the list, or clear the list entirely. The use of localStorage ensures that the data in the list will persist even if the browser window is closed.",
         code: "https://github.com/amydevlondon/Shopping-List-App",
         demo: "https://shoppingbuddy.netlify.app/",
         image: './images/shopping.jpg'
